@@ -8,11 +8,14 @@
 
 // myFunc('http://whatever.com', 20) // time will be 20
 
-// // pre es6
+// // pre ES6 that is before ES6
 
 // function myFuncPreES6(url, time) {
 //     if(time===undefined) time= 10
 // }
+
+/*There is a cool feature in ES6 which is the fact that a function can receive parameters with default values incase the user doesn't inout a value, the default value replaces the missed value.*/
+
 
 // ----------- FUNCTIONS - REST PARAMETERS
 
@@ -36,7 +39,7 @@
 // console.log(withRestParams(1, 2, 3, 4, 5, 6, 7, 8, 9))
 
 // ----------- FUNCTIONS - ARROW FUNCTIONS
-
+/* Arrow functions can not be used every where, the property 'this' willl be referencing the window object(external element). The 'this' property can access stuff internally when we use normal function. so if you have to access an internal property sing the 'this' property make sure you use normal functions syntax */
 // () => {};
 
 // function whatever() {
