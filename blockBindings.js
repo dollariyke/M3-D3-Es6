@@ -57,3 +57,23 @@
 // }
 
 // console.log(i) // not accessible
+
+ // ------------------- BLOCK BINDING---------------------
+ if(condition){
+    const myVar = 123456;
+    //myVar is only visible here
+}
+// here const myVar is undefined as it is outside the scope in which it was declared.
+if(condition){
+   let myVar = 123456;
+   //myVar is only visible here
+}
+// here let myVar is undefined as it is outside the scope in which it was declared.
+
+if(condition){
+   var myVar = 123456;
+   //myVar is visible here and outside and as a result let was created to prevent the confusions caused by var
+}
+
+//var myVar is also visble here.
+//do not ever use var, use let, preferable use const.
