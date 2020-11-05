@@ -120,7 +120,10 @@
 }
 
 //var myVar is also visble here.
-//do not ever use var, use let, preferable used const
+//do not ever use var, use let, preferable use const.
+
+//-----------------Function-------------------------
+/*There is a cool feature in ES6 which is the fact that a function can receive parameters with default values incase the user doesn;t inout a value, the default value replaces the missed value.*/
 
  //------------------- VERY VERY USEFUL ARRAY METHODS -----------------------------
 
