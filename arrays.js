@@ -95,12 +95,12 @@
 
  // with arrow functions <3
 
- const section2TotalScore = students
-   .filter((student) => student.section === "G2")
-   .map((student) => student.homeworkScore + student.hackerRankScore)
-   .reduce((total, score) => total + score, 0)
+// const section2TotalScore = students
+ //  .filter((student) => student.section === "G2")
+  // .map((student) => student.homeworkScore + student.hackerRankScore)
+  // .reduce((total, score) => total + score, 0)
 
- console.log(section2TotalScore)
+ //console.log(section2TotalScore)
 
 
 
@@ -109,16 +109,17 @@
  //------------------- VERY VERY USEFUL ARRAY METHODS -----------------------------
 
 // 1.SOME
+/* this returns a bolean if any of the element matches the condition in the callback function */
  const myAwesomeArray = ["a", "b", "c", "d", "b"];
 
  console.log(myAwesomeArray.some((element) => element === "a"));
 
  //2.EVERY
-
+/* this returns a bolean if all of the element matches the condition in the callback function */
  console.log(myAwesomeArray.every((element) => element === "a"));
 
 // 3. FLAT
-
+/* this retursn an array with all the elements at the same level. it brings all th elements in the array of arrays to same level */
  const myAwesomeArray = [[1, 2], [3, 4], 5]
 
  myAwesomeArray.flat()
