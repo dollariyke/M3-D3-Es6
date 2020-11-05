@@ -1,14 +1,14 @@
 // ----------- SPREAD OPERATOR - OBJECTS
 
-// const obj1 = { name: "John", age: 22 };
-// const obj2 = { name: "Rambo", gender: "M" };
+ const obj1 = { name: "John", age: 22 };
+ const obj2 = { name: "Rambo", gender: "M", height: '27m' };
 
-// const obj3 = { ...obj1, ...obj2, phone: "1321521323" };
+ const obj3 = { ...obj1, ...obj2, phone: "1321521323" };
 
-// const obj4 = { ...obj1 };
+ const obj4 = { ...obj1 };
 
-// console.log(obj3);
-
+ console.log(obj3);
+ console.log(obj4);
 // ----------- SPREAD OPERATOR - ARRAYS
 
 // const arrayOfStrings = ["This", "is", "a", "sentence"];
